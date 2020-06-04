@@ -1,0 +1,192 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+$domain-color: #CA5A5A;
+$crunchynodes-com: rgb(238, 152, 73);
+
+
+@media screen and (max-width:500px){
+    .main-domain {
+        padding: 1rem;
+        h1, span{
+            font-size: 1.5rem;
+            
+        }
+        span {
+            background: $domain-color;
+            color: white;
+            padding: 0.2rem 0.5rem;
+            border-radius: 5px;
+        }
+    
+        
+    }
+
+    .owner {
+        padding: 1rem;
+        h2, a {
+            font-size: 1.1rem;
+            font-weight: lighter;
+            
+        }
+    
+        h2 a {
+            color: black;
+            background: $crunchynodes-com;
+            padding: 0.1rem 0.5rem;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    }
+
+    .notice {
+        background: rgb(163, 201, 89);
+        padding: 1.2rem;
+        font-weight: bold;
+        color: black;
+        
+        a button {
+            color: white;
+            background: rgb(91, 112, 50);
+            padding: 0.15rem 0.3rem;
+            font-weight: normal;
+            border-radius: 5px;
+            border: 1.2px dashed black;
+        }
+    }
+
+    .social {
+        padding: 2rem;
+        font-weight: bolder;
+    
+        i {
+            color: black;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+        }
+    
+        i:hover {
+            background: $crunchynodes-com;
+            border-radius: 50px;
+        }
+    }
+
+    .sponsor {
+        
+        p {
+            background: rgb(48, 197, 197);
+            padding: 0.5rem;
+        }
+    
+        p, a {
+            font-size: 0.8rem;
+        }
+    
+        a {
+            color: white;
+            font-weight: bolder;
+        }
+    
+        iframe {
+            margin: 0 auto;
+            width: 80%;
+            height: 500px;
+            border: 0.5rem double black;
+        }
+    }
+}
+
+
+
+@media screen and (min-width:550px) {
+    .main-domain {
+        padding: 1.5rem;
+        h1, span{
+            font-size: 3rem;
+            
+        }
+        span {
+            background: $domain-color;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
+        }
+    }
+    
+    .owner {
+        padding: 1.5rem;
+        h2, a {
+            font-size: 1.5rem;
+            font-weight: lighter;
+        }
+    
+        h2 a {
+            color: black;
+            background: $crunchynodes-com;
+            padding: 0.5rem;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+    }
+    
+    .notice {
+        background: rgb(163, 201, 89);
+        padding: 2rem;
+        font-weight: bold;
+        color: black;
+        
+        a button {
+            color: white;
+            background: rgb(91, 112, 50);
+            padding: 0.5rem;
+            font-weight: normal;
+            border-radius: 5px;
+            border: 1.2px dashed black;
+        }
+    }
+    
+    .social {
+        padding: 2rem;
+        font-weight: bolder;
+    
+        i {
+            color: black;
+            font-size: 3rem;
+            padding: 1.5rem;
+        }
+    
+        i:hover {
+            background: $crunchynodes-com;
+            border-radius: 50px;
+        }
+    }
+    
+    .sponsor {
+        
+        p {
+            background: rgb(48, 197, 197);
+            padding: 0.5rem;
+        }
+    
+        p, a {
+            font-size: 1.5rem;
+        }
+    
+        a {
+            color: white;
+            font-weight: bolder;
+        }
+    
+        iframe {
+            margin: 0 auto;
+            width: 80%;
+            height: 600px;
+            border: 1rem double black;
+        }
+    }
+}
