@@ -1,3 +1,4 @@
+// html base css 
 *, html {
     margin: 0;
     padding: 0;
@@ -6,10 +7,16 @@
     text-align: center;
 }
 
+// Colors variable 
 $domain-color: #CA5A5A;
 $crunchynodes-com: rgb(238, 152, 73);
 
 
+// *
+// *
+// // MOBILE CSS 
+// *
+// *
 @media screen and (max-width:500px){
     .main-domain {
         padding: 1rem;
@@ -101,7 +108,11 @@ $crunchynodes-com: rgb(238, 152, 73);
     }
 }
 
-
+// *
+// *
+// // DESKTOP + Tablet CSS 
+// *
+// *
 
 @media screen and (min-width:550px) {
     .main-domain {
