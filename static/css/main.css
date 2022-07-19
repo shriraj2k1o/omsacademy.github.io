@@ -1,155 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,100&display=swap");
 *, html {
   margin: 0;
-  padding: 0;
-  font-size: 18px;
+  padding: 1.5em 0;
   font-family: sans-serif;
+  background: #000;
+  color: #fff;
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-  .main-domain {
-    padding: 1rem;
-  }
-  .main-domain h1, .main-domain span {
-    font-size: 1.5rem;
-  }
-  .main-domain span {
-    background: #CA5A5A;
-    color: white;
-    padding: 0.2rem 0.5rem;
-    border-radius: 5px;
-  }
-  .owner {
-    padding: 1rem;
-  }
-  .owner h2, .owner a {
-    font-size: 1.1rem;
-    font-weight: lighter;
-  }
-  .owner h2 a {
-    color: black;
-    background: #ee9849;
-    padding: 0.1rem 0.5rem;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  .notice {
-    background: #a3c959;
-    padding: 1.2rem;
-    font-weight: bold;
-    color: black;
-  }
-  .notice a button {
-    color: white;
-    background: #5b7032;
-    padding: 0.15rem 0.3rem;
-    font-weight: normal;
-    border-radius: 5px;
-    border: 1.2px dashed black;
-  }
-  .social {
-    padding: 2rem;
-    font-weight: bolder;
-  }
-  .social i {
-    color: black;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-  }
-  .social i:hover {
-    background: #ee9849;
-    border-radius: 50px;
-  }
-  .sponsor p {
-    background: #30c5c5;
-    padding: 0.5rem;
-  }
-  .sponsor p, .sponsor a {
-    font-size: 0.8rem;
-  }
-  .sponsor a {
-    color: white;
-    font-weight: bolder;
-  }
-  .sponsor iframe {
-    margin: 0 auto;
-    width: 80%;
-    height: 500px;
-    border: 0.5rem double black;
-  }
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-@media screen and (min-width: 550px) {
-  .main-domain {
-    padding: 1.5rem;
-  }
-  .main-domain h1, .main-domain span {
-    font-size: 3rem;
-  }
-  .main-domain span {
-    background: #CA5A5A;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 15px;
-  }
-  .owner {
-    padding: 1.5rem;
-  }
-  .owner h2, .owner a {
-    font-size: 1.5rem;
-    font-weight: lighter;
-  }
-  .owner h2 a {
-    color: black;
-    background: #ee9849;
-    padding: 0.5rem;
-    border-radius: 15px;
-    font-weight: bold;
-  }
-  .notice {
-    background: #a3c959;
-    padding: 2rem;
-    font-weight: bold;
-    color: black;
-  }
-  .notice a button {
-    cursor: pointer;
-    color: white;
-    background: #5b7032;
-    padding: 0.5rem;
-    font-weight: normal;
-    border-radius: 5px;
-    border: 1.2px dashed black;
-  }
-  .social {
-    padding: 2rem;
-    font-weight: bolder;
-  }
-  .social i {
-    color: black;
-    font-size: 3rem;
-    padding: 1.5rem;
-  }
-  .social i:hover {
-    background: #ee9849;
-    border-radius: 50px;
-  }
-  .sponsor p {
-    background: #30c5c5;
-    padding: 0.5rem;
-  }
-  .sponsor p, .sponsor a {
-    font-size: 1.5rem;
-  }
-  .sponsor a {
-    color: white;
-    font-weight: bolder;
-  }
-  .sponsor iframe {
-    margin: 0 auto;
-    width: 80%;
-    height: 600px;
-    border: 1rem double black;
-  }
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
-/*# sourceMappingURL=main.css.map */
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}/*# sourceMappingURL=main.css.map */
